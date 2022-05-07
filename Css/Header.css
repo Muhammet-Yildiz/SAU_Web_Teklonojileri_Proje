@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Signika+Negative:wght@300&display=swap');
+Header {
+    position: relative;
+    width: 100%;
+    /* border: blue solid 2px; */
+    height: 75px;
+    padding-top: 10px;
+    margin-bottom: 1.5rem;
+    border-bottom: rgba(15, 15, 15, 0.1) solid 1px;
+}
+
+.wrapper-h {
+    /* border: red solid 2px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    display: flex;
+    padding: 0 1.3rem;
+}
+
+Header .LOGO {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: black;
+    font-family: 'Hanalei Fill', cursive;
+    letter-spacing: 1.2px;
+    color: rgb(0, 96, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Header .LOGO a {
+    color: rgb(0, 96, 134);
+    text-decoration: none;
+}
+
+Header ul.preferences {
+    display: flex;
+    list-style-type: none;
+    margin-top: 14px;
+}
+
+Header ul.preferences li {
+    margin: 0 15px;
+}
+
+Header ul.preferences li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    transition: 350ms ease;
+}
+
+Header ul.preferences li a:hover {
+    color: rgb(0, 96, 134);
+}
+
+@media only screen and (min-width: 900px) {
+    Header {
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+    }
+    .wrapper-h {
+        width: 1100px;
+        /* border: red solid 2px; */
+        height: 100%;
+        padding: 0 10px;
+        border-bottom: rgba(15, 15, 15, 0.1) solid 1px;
+    }
+}
+
+@media only screen and (max-width:873px) {
+    Header .LOGO {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        /* border: red solid 2px; */
+        height: 65px;
+    }
+    Header ul.preferences {
+        display: none;
+    }
+}
+
+.container {
+    /* border: blueviolet solid 3px; */
+}
