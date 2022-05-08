@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+form {
+    position: relative;
+}
+
+form input,
+form textarea {
+    border-radius: 2px !important;
+    padding: 11px 15px !important;
+    border: 1px solid rgb(203, 203, 203) !important;
+    transition: 350ms ease !important;
+}
+
+form input:hover,
+form textarea:hover {
+    background-color: rgb(253, 253, 253) !important;
+}
+
+form input:focus,
+form textarea:focus {
+    box-shadow: none !important;
+    background-color: rgb(253, 253, 253) !important;
+}
+
+form label {
+    font-family: 'Mukta', sans-serif !important;
+    font-weight: bold !important;
+    margin-left: 8px !important;
+    color: rgb(0, 96, 134);
+}
+
+.hobies .title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(0, 96, 134);
+    font-family: 'Mukta', sans-serif !important;
+}
+
+.hobies .form-check {
+    width: 120px !important;
+    display: inline!important;
+    margin-right: 16px !important;
+}
+
+.hobies .form-check label {
+    font-weight: normal !important;
+    color: black;
+}
+
+.hobies .form-check-input {
+    margin-top: 7px !important;
+}
+
+.gender .title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: 'Mukta', sans-serif !important;
+    color: rgb(0, 96, 134);
+}
+
+.gender .form-check {
+    width: 120px !important;
+    display: inline!important;
+    margin-right: 16px !important;
+}
+
+.gender .form-check label {
+    font-weight: normal !important;
+    color: black;
+}
+
+.gender .form-check-input {
+    margin-top: 7px !important;
+}
+
+#education {
+    width: 100% !important;
+    border-radius: 2px !important;
+    padding: 11px 15px !important;
+    border: 1px solid rgb(203, 203, 203) !important;
+    transition: 350ms ease !important;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
