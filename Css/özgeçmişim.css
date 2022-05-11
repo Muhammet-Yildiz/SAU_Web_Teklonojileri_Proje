@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+section {
+    padding-left: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        padding-left: 0;
+    }
+}
+
+table {
+    width: 650px !important;
+    height: 400px;
+}
+
+table tbody {
+    border: rgb(240, 240, 240) solid 1px;
+    border-radius: 8px;
+}
+
+table tr td {
+    border-left: 1px solid rgb(243, 242, 242)
+}
+
+table tr th {
+    border: none;
+    border-bottom: rgb(240, 240, 240) solid 1px;
+}
+
+table tbody tr th {
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.9rem;
+    color: rgb(0, 96, 134);
+}
+
+table td {
+    font-size: 0.9rem;
+}
+
+table td a {
+    color: rgb(202, 1, 1);
+    text-decoration: underline;
+}
+
+table tr td div {
+    margin-bottom: 10px;
+}
+
+table tr td div span {
+    margin: 0 10px;
+}
+
+.ProfilePhoto {
+    /* border: red solid 3px; */
+    height: 370px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ProfilePhoto img {
+    width: 180px;
+    height: 200px;
+}
